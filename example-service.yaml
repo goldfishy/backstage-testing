@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: component
+metadata:
+  name: example-service
+  description: |
+    A cool example service.
+  links:
+    - title: Website
+      url: http://example.com
+spec:
+  type: Service
+  owner: Max
+  lifecycle: experimental
