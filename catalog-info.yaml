@@ -8,7 +8,8 @@ metadata:
     - title: Website
       url: http://example.com
   annotations:
-    'backstage.io/kubernetes-namespace': backstage-testing
+    backstage.io/kubernetes-namespace: backstage-testing
+    backstage.io/kubernetes-id: backstage-testing
 spec:
   type: Service
   owner: Max
